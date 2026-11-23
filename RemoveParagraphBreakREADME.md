@@ -1,12 +1,11 @@
 # Remove Paragraph Break
 
-A simple PowerShell script that prompts for a text and returns the content without paragraph breaks, directly in the prompt. Each line break (or sequence of line breaks) is replaced by a single space. Nothing other than the breaks is changed.
+It is a script that prompts for a text and returns the content without paragraph breaks, directly in the prompt. Each line break (or sequence of line breaks) is replaced by a single space.
 
 ## The script:
 
- `remover-paragrafos.ps1`:
-
-
+ `remove-paragraphs.ps1`:
+ 
 
 ## How to use
 
@@ -17,7 +16,7 @@ A simple PowerShell script that prompts for a text and returns the content witho
    ```
 3. Run:
    ```
-   powershell -ExecutionPolicy Bypass -File remover-paragrafos.ps1
+   powershell -ExecutionPolicy Bypass -File remove-paragraphs.ps1
    ```
 4. Paste your text into the prompt.
 5. Press **Enter**, then **Ctrl+Z**, then **Enter** again.
@@ -47,7 +46,7 @@ Use the `-ExecutionPolicy Bypass` parameter when calling the script, as in step 
 After that, you can run the script directly:
 
 ```powershell
-.\remover-paragrafos.ps1
+.\remove-paragraphs.ps1
 ```
 
 ### If the file came from the internet and is still blocked

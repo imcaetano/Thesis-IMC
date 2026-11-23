@@ -9,4 +9,4 @@ As a way to address this question, I employ quantitative discourse analysis to d
 
 ## Tools
 ### Remove Paragraph Breaks
-The first step in this process is to build the textual database. To do so, I developed and used the Remove Paragraph Breaks tool to standardize the speeches collected from official government websites before incorporating them into the original corpus dataset.
+(to build the textual database) Tool developed to standardize the speeches collected from official government websites before incorporating them into the original corpus dataset.
